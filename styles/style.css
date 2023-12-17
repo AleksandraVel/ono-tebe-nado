@@ -1,1 +1,257 @@
-/* место для вашего кода */
+body {
+  width: 1100px;
+  height: 2980px;
+  background-color: rgb(255, 255, 255);
+  font-family: Raleway, sans-serif;
+} 
+.header {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 35px;
+}
+.header_p{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-left: 65px; 
+}
+.ul_header {
+  column-count: 2;
+  column-gap: 30px;
+  white-space: nowrap;
+  text-decoration: underline;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-left: 33px;
+  padding-top: 2px;
+ }
+.logo {
+  width: 135px;
+  height: 150px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding-top: 23px;
+  }
+.contact-info{
+  grid-column-start: 9;
+  grid-column-end: 10;
+  padding-left: 187px;
+  }
+.adres{
+  white-space: nowrap;
+  grid-column-start: 9;
+  grid-column-end: 10;
+  padding-left: 187px;  
+    }
+.banner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  max-width: 1450px;
+  height: 750px;
+  margin: auto;
+  margin-top: 70px;
+  margin-left: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.446), rgba(0, 0, 0, 0.479)),  url(/images/cover.jpg);
+  background-size: cover;
+  background-position: 50% 50%;       
+}
+.It{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 3;
+  padding-top : 160px;
+  padding-left: 50px;
+}
+.To_you{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 3;
+  padding-top: 155px;
+  padding-right: 55px;
+}
+.One_must{
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 4;
+  padding-bottom : 100px;
+  padding-right: 45px;
+}
+.h3_banner{
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-column-end: 2;
+  grid-row-end: 5;
+  padding-left: 90px;
+  padding-top : 35px;
+}
+.banner_buton {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-column-end: 3;
+  grid-row-end: 5;
+  gap: 8px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+.lots{
+  padding-left: 80px;
+  margin-top: 170px;  
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 1050px;
+  height: 682px;
+  padding-top: 25px;
+  margin-left: 40px;
+  ;
+}
+.card1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 328px;
+  height: 554px;
+  background: linear-gradient(rgba(0, 0, 0, 0.446), rgba(0, 0, 0, 0.479)), url(/images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: 1%; 
+}
+.card2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 328px;
+  height: 554px;
+  background: linear-gradient(rgba(0, 0, 0, 0.446), rgba(0, 0, 0, 0.479)), url(/images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: 50% 50%; 
+}
+.card3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 328px;
+  height: 554px;
+  background: linear-gradient(rgba(0, 0, 0, 0.446), rgba(0, 0, 0, 0.479)), url(/images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: 50% 50%;  
+}
+.card_top{
+  margin-top: 17px;
+  margin-left: 10px;
+  padding: 30px;
+}
+.card2_top{
+  margin-top: 17px;
+  margin-left: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card1_bottom{
+  padding: 30px;
+  margin-top: 180px;
+  margin-left: 10px;
+}
+.card2_bottom{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+}
+.card3_bottom{
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+}
+.Look_more{
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+.information{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 1082px;
+  height: 546px;
+  margin-top: 125px;
+}
+.logo2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 240px;
+  height: 240px;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  background-color: #000;
+  padding-left: 45px;
+  padding-top: 62px;
+  margin-left: 85px;
+}
+.logo2 img{
+  width: 148px;
+  height: 114px;
+}
+.information_title{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 100px;
+  padding-left: 33px;
+}
+.detailed_information{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 98px;
+  margin-left: 30px;
+}
+.detailed_information2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+footer{
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr 1fr 1fr;
+  width: 1100px;
+  height: 2980px;
+  margin-top: 185px;
+}
+.contact-info_footer, .adres_footer{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 66px;
+}
+.navigation{
+  grid-column-start: 2;
+  grid-column-end: 3;   
+  align-items: center;
+  margin-left: 30px;
+}
+.icone1, .icone2, .icone3{
+  width: 50px;
+  height: 48px;
+}
+.icone1{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-left: 90px;
+}
+.icone2{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin-left: 46px;
+}
+.icone3{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  margin-left: 20px;
+}
