@@ -245,7 +245,7 @@ a {
   padding-top: 100px;
   margin-bottom: 75px;
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
 }
