@@ -255,6 +255,7 @@ a {
   flex-direction: column;
   gap: 21px;
   padding-left: 20px;
+  padding-right: 15px;
 }
 .detailed_information {
   color: #000;
