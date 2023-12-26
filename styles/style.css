@@ -219,8 +219,8 @@ a {
   grid-template-columns: 1fr 2fr;
   margin-top: 174px;
   margin-right: 10px;
-  }
-  .logo2 {
+}
+.logo2 {
   grid-column-start: 1;
   grid-column-end: 2;
   width: 240px;
@@ -231,12 +231,12 @@ a {
   padding-left: 42px;
   padding-top: 62px;
   margin-left: 80px;
-  }
-  .logo2_image {
+}
+.logo2_image {
   width: 148px;
   height: 114px;
-  }
-  .information_title {
+}
+.information_title {
   color: #000;
   font-family: "Raleway", sans-serif;
   font-size: 39px;
@@ -249,14 +249,14 @@ a {
   padding-top: 100px;
   padding-left: 24px;
   margin-bottom: 98px;
-  }
-  .text {
+}
+.text {
     display: flex;
     flex-direction: column;
     gap: 21px;
     padding-left: 20px;
-  }
-  .detailed_information {
+}
+.detailed_information {
   color: #000;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
@@ -264,7 +264,7 @@ a {
   line-height: normal;
   grid-column-start: 2;
   grid-column-end: 3;
-  }
+}
 footer {
   display: grid;
   grid-template-columns: 30% 46% 24%;
