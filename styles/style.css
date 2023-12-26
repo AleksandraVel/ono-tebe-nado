@@ -251,10 +251,10 @@ a {
   margin-bottom: 98px;
 }
 .text {
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-left: 20px;
 }
 .detailed_information {
   color: #000;
