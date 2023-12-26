@@ -152,6 +152,8 @@ a {
 }
 .card {
   width: 329px;
+  min-height: 554px;
+  flex-grow: 1;
   background-size: cover;
   background-position: 100%;
 }
@@ -248,13 +250,12 @@ a {
 .text {
   display: flex;
   flex-direction: column;
+  flex-grow: 25px;
 }
 .text_information {
   color: #000;
   font-family: "Raleway", "Arial", sans-serif;
   font-size: 20px;
-  padding-top: 5px;
-  padding-bottom: 9px;
   padding-right: 11px;
   padding-left: 385px;
 }
