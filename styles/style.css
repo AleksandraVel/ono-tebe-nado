@@ -146,6 +146,7 @@ a {
   gap: 24px;
   justify-content: space-between;
   list-style-type: none;
+  height: 100%
   margin-top: 25px;
   padding-left: 30px;
   padding-right: 30px;
